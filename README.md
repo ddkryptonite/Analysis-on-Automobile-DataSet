@@ -66,5 +66,7 @@ import matplotlib.pyplot as plt
 sns.regplot(x="engine-size", y="price", data=df)
 plt.ylim(0,)
 ```
+- This plot helps us visualize the relationship between engine size and price. A positive slope in the regression line would indicate that larger engine sizes are generally associated with higher prices.
+- By analyzing the spread and trend of the data points along the regression line, we can infer the strength and nature of the relationship between these variables, which is crucial for making data-driven decisions in predicting automobile prices
 
 
